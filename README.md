@@ -25,7 +25,7 @@ a new rancher stack thanks to a docker-compose file
 </plugin>
 ```
 ###Command line
-All optons can be overidden in using line arguments:
+All optons can be overidden by using line arguments:
 ```
 - rancher.accessKey #rancher login
 - rancher.password # rancher password
