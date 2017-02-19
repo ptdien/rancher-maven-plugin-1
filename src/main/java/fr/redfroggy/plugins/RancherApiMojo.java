@@ -139,7 +139,7 @@ public class RancherApiMojo extends AbstractMojo {
      */
     private String getEnvironment() {
 
-        String envUrl = url+"/projects?name="+environment;
+        String envUrl = url+"?name="+environment;
 
         ResponseEntity<String> responseEntity = restTemplate.exchange(envUrl, HttpMethod.GET, createEntity(), String.class);
 

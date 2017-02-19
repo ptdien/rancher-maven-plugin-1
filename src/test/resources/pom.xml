@@ -19,7 +19,7 @@
                     <dockerComposeFile>src/main/resources/docker-compose.yml</dockerComposeFile>
                     <accessKey>4DB7A9DA2EC346EB5BFF</accessKey>
                     <password>W7LjNexG6V5kjY9FKnriipPVme9GT7yVA3PXN9yW</password>
-                    <url>http://localhost:8082/v2-beta/projects</url>
+                    <url>http://localhost:8082/v2-beta/dddd</url>
                     <name>registry</name>
                     <description>Registry Server</description>
                     <environment>dev</environment>
