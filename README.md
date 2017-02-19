@@ -6,6 +6,23 @@ A Maven plugin for interacting with [rancher](http://rancher.com).
 There is only one goal: stack-deploy which purpose is to delete and/or create 
 a new rancher stack thanks to a docker-compose file
 
+##Add dependency
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+```
+<dependency>
+    <groupId>com.github.RedFroggy</groupId>
+    <artifactId>rancher-maven-plugin</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 ##Usage
 ###pom.xml file
 ```
