@@ -10,7 +10,39 @@
 
   <name>Rancher api maven plugin</name>
 
-  <url>http://maven.apache.org</url>
+  <url>http://www.redfroggy.fr</url>
+
+  <organization>
+    <name>RedFroggy</name>
+    <url>http://www.redfroggy.fr</url>
+  </organization>
+
+  <scm>
+    <url>https://github.com/RedFroggy/rancher-maven-plugin</url>
+    <connection>scm:git:https://github.com/RedFroggy/rancher-maven-plugin.git</connection>
+    <developerConnection>scm:git:https://github.com/RedFroggy/rancher-maven-plugin</developerConnection>
+    <tag>master</tag>
+  </scm>
+  <developers>
+    <developer>
+      <id>mdesigaud</id>
+      <name>Michael Desigaud</name>
+      <email>michael.desigaud at redfroggy.fr</email>
+      <organization>RedFroggy</organization>
+      <organizationUrl>http://www.redfroggy.fr</organizationUrl>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <properties>
     <maven.plugin.api>3.3.9</maven.plugin.api>
