@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.redfroggy.plugins</groupId>
+    <artifactId>rancher-plugin-test</artifactId>
+    <name>rancher-plugin-test</name>
+    <version>1.0-SNAPSHOT</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>fr.redfroggy.plugins</groupId>
+                <artifactId>rancher</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <configuration>
+                    <dockerComposeFile>src/main/resources/docker-compose.yml</dockerComposeFile>
+                    <accessKey>4DB7A9DA2EC346EB5BFF</accessKey>
+                    <password>W7LjNexG6V5kjY9FKnriipPVme9GT7yVA3PXN9yW</password>
+                    <url>http://localhost:8082/v2-beta/projects</url>
+                    <name>registry</name>
+                    <description>Registry Server</description>
+                    <environment>dev</environment>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
